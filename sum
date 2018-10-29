@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{
+ int s;
+ s=3+8;
+ printf("%d",s);
+}
