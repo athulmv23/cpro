@@ -1,7 +1,14 @@
 #include<stdio.h>
-void main()
-{
- int s;
- s=3+8;
- printf("%d",s);
+ 
+int main() {
+   int a, b, sum;
+ 
+   printf("\nEnter two no: ");//input
+   scanf("%d %d", &a, &b);
+ 
+   sum = a + b;//calculation
+ 
+   printf("Sum : %d", sum);//output
+ 
+   return(0);
 }
